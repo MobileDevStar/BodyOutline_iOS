@@ -1,0 +1,12 @@
+# Use iOS 9 and above
+platform :ios, '9.0'
+
+# Specify Workspace
+workspace 'BodyOutline'
+
+target 'BodyOutline' do
+  
+  # Install additional dependencies
+  pod 'OpenCV'
+
+end
