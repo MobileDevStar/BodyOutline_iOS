@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		544060833A4574C165D8FFDC /* libPods-BodyOutline.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F771F89A13507C195BEB4A8 /* libPods-BodyOutline.a */; };
+		A303E12D22D43ECD00ED6936 /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = A303E12A22D43ECD00ED6936 /* haarcascade_eye_tree_eyeglasses.xml */; };
+		A303E12E22D43ECD00ED6936 /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = A303E12B22D43ECD00ED6936 /* haarcascade_frontalface_alt.xml */; };
+		A303E12F22D43ECD00ED6936 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = A303E12C22D43ECD00ED6936 /* haarcascade_frontalface_alt2.xml */; };
+		A303E13122D49BA400ED6936 /* haarcascade_fullbody.xml in Resources */ = {isa = PBXBuildFile; fileRef = A303E13022D49BA400ED6936 /* haarcascade_fullbody.xml */; };
 		A304E78022D354580028722E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E77F22D354580028722E /* AppDelegate.m */; };
 		A304E78322D354580028722E /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = A304E78222D354580028722E /* ViewController.mm */; };
 		A304E78622D354580028722E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A304E78422D354580028722E /* Main.storyboard */; };
@@ -16,9 +20,6 @@
 		A304E78E22D3545A0028722E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E78D22D3545A0028722E /* main.m */; };
 		A304E79822D3545A0028722E /* BodyOutlineTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E79722D3545A0028722E /* BodyOutlineTests.m */; };
 		A304E7A322D3545A0028722E /* BodyOutlineUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A304E7A222D3545A0028722E /* BodyOutlineUITests.m */; };
-		A33EA95722D3589200ABE76E /* haarcascade_eye_tree_eyeglasses.xml in Resources */ = {isa = PBXBuildFile; fileRef = A33EA95422D3589200ABE76E /* haarcascade_eye_tree_eyeglasses.xml */; };
-		A33EA95822D3589200ABE76E /* haarcascade_frontalface_alt.xml in Resources */ = {isa = PBXBuildFile; fileRef = A33EA95522D3589200ABE76E /* haarcascade_frontalface_alt.xml */; };
-		A33EA95922D3589200ABE76E /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = A33EA95622D3589200ABE76E /* haarcascade_frontalface_alt2.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,10 @@
 /* Begin PBXFileReference section */
 		15FD70057C5F0B29AA9E035A /* Pods-BodyOutline.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyOutline.debug.xcconfig"; path = "Target Support Files/Pods-BodyOutline/Pods-BodyOutline.debug.xcconfig"; sourceTree = "<group>"; };
 		2F771F89A13507C195BEB4A8 /* libPods-BodyOutline.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BodyOutline.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A303E12A22D43ECD00ED6936 /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
+		A303E12B22D43ECD00ED6936 /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
+		A303E12C22D43ECD00ED6936 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		A303E13022D49BA400ED6936 /* haarcascade_fullbody.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_fullbody.xml; sourceTree = "<group>"; };
 		A304E77B22D354580028722E /* BodyOutline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BodyOutline.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A304E77E22D354580028722E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A304E77F22D354580028722E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -57,9 +62,6 @@
 		A304E79E22D3545A0028722E /* BodyOutlineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BodyOutlineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A304E7A222D3545A0028722E /* BodyOutlineUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BodyOutlineUITests.m; sourceTree = "<group>"; };
 		A304E7A422D3545A0028722E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A33EA95422D3589200ABE76E /* haarcascade_eye_tree_eyeglasses.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_eye_tree_eyeglasses.xml; sourceTree = "<group>"; };
-		A33EA95522D3589200ABE76E /* haarcascade_frontalface_alt.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt.xml; sourceTree = "<group>"; };
-		A33EA95622D3589200ABE76E /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
 		FC93D1614D71DC532D26C825 /* Pods-BodyOutline.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BodyOutline.release.xcconfig"; path = "Target Support Files/Pods-BodyOutline/Pods-BodyOutline.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,6 +108,17 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		A303E12922D43ECD00ED6936 /* library */ = {
+			isa = PBXGroup;
+			children = (
+				A303E13022D49BA400ED6936 /* haarcascade_fullbody.xml */,
+				A303E12A22D43ECD00ED6936 /* haarcascade_eye_tree_eyeglasses.xml */,
+				A303E12B22D43ECD00ED6936 /* haarcascade_frontalface_alt.xml */,
+				A303E12C22D43ECD00ED6936 /* haarcascade_frontalface_alt2.xml */,
+			);
+			path = library;
+			sourceTree = "<group>";
+		};
 		A304E77222D354580028722E = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +144,7 @@
 		A304E77D22D354580028722E /* BodyOutline */ = {
 			isa = PBXGroup;
 			children = (
-				A33EA95322D3589200ABE76E /* library */,
+				A303E12922D43ECD00ED6936 /* library */,
 				A304E77E22D354580028722E /* AppDelegate.h */,
 				A304E77F22D354580028722E /* AppDelegate.m */,
 				A304E78122D354580028722E /* ViewController.h */,
@@ -161,16 +174,6 @@
 				A304E7A422D3545A0028722E /* Info.plist */,
 			);
 			path = BodyOutlineUITests;
-			sourceTree = "<group>";
-		};
-		A33EA95322D3589200ABE76E /* library */ = {
-			isa = PBXGroup;
-			children = (
-				A33EA95422D3589200ABE76E /* haarcascade_eye_tree_eyeglasses.xml */,
-				A33EA95522D3589200ABE76E /* haarcascade_frontalface_alt.xml */,
-				A33EA95622D3589200ABE76E /* haarcascade_frontalface_alt2.xml */,
-			);
-			path = library;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -277,12 +280,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A33EA95922D3589200ABE76E /* haarcascade_frontalface_alt2.xml in Resources */,
-				A33EA95822D3589200ABE76E /* haarcascade_frontalface_alt.xml in Resources */,
+				A303E12F22D43ECD00ED6936 /* haarcascade_frontalface_alt2.xml in Resources */,
+				A303E12E22D43ECD00ED6936 /* haarcascade_frontalface_alt.xml in Resources */,
 				A304E78B22D3545A0028722E /* LaunchScreen.storyboard in Resources */,
 				A304E78822D3545A0028722E /* Assets.xcassets in Resources */,
 				A304E78622D354580028722E /* Main.storyboard in Resources */,
-				A33EA95722D3589200ABE76E /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				A303E12D22D43ECD00ED6936 /* haarcascade_eye_tree_eyeglasses.xml in Resources */,
+				A303E13122D49BA400ED6936 /* haarcascade_fullbody.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
